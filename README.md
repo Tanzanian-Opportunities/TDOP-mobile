@@ -34,7 +34,7 @@ Until then this repository documents the plan only.
 
 | Resource | Location |
 |---|---|
-| Software requirements (SRS) | [TDOP-docs/Specs/SRS.md](https://github.com/Tanzanian-Opportunities/TDOP-docs/blob/develop/Specs/SRS.md) (§3.11 mobile requirements) |
+| Software requirements (SRS) | [TDOP-docs/docs/requirements/SRS.md](https://github.com/Tanzanian-Opportunities/TDOP-docs/blob/develop/docs/requirements/SRS.md) (§3.11 mobile requirements) |
 | Product requirements | [TDOP-docs/README_PRD.md](https://github.com/Tanzanian-Opportunities/TDOP-docs/blob/develop/README_PRD.md) |
 | Project management / roadmap | [TDOP-docs/PROJECT_MANAGEMENT.md](https://github.com/Tanzanian-Opportunities/TDOP-docs/blob/develop/PROJECT_MANAGEMENT.md) |
 | Task boards (177 tasks, 33 phases) | [TDOP-docs/TASK_BREAKDOWN.md](https://github.com/Tanzanian-Opportunities/TDOP-docs/blob/develop/TASK_BREAKDOWN.md) |
