@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  flutter-analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Analyze (when the app is scaffolded)
+        run: |
+          if [ -f pubspec.yaml ]; then
+            flutter pub get
+            flutter analyze
+            flutter test
+          else
+            echo "No pubspec.yaml yet - application scaffolding starts with its phase."
+          fi
